@@ -6,7 +6,7 @@ A sample Ionic application with MobileFirst Capabilities which demonstrate getti
 ### Usage
 
 1. From a command-line window, navigate to the project's root folder and run the commands:
- - `ionic cordova plugin add cordova-plugin-mfp`
+ - `ionic cordova plugin add cordova-plugin-mfp` - to add MFP plugin
  - `ionic cordova platform add` - to add a platform.
  - `mfpdev app register` - to register the application.
  - `ionic cordova run` - to run the application.

@@ -12,7 +12,7 @@ A sample Ionic application with MobileFirst Capabilities which demonstrate getti
 
 3. Run the application in an Android Emulator, iOS Simulator, Browser or physical device. Press the **Get on-premise Data** button to recieve the data from on-premises environment.
 
-##Node JS HTTP Project
+## Node JS HTTP Project
  A sample node js project which creates a HTTP endpoint in on-premises/local environment whith sample data hosted on it.
  
 ### Usage

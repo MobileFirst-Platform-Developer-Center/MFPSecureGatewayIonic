@@ -14,4 +14,4 @@ xmlReader.readXML(fs.readFileSync(xmlfile), function(err, data) {
 
   });
   
-app.listen(port, () => console.log(`your app  is listening at http://localhost/Messege:${port}`))
+app.listen(port, () => console.log(`your app  is listening at http://localhost:${port}/Messege`))

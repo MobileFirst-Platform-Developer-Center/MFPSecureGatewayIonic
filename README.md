@@ -1,7 +1,7 @@
 IBM MobileFirst Platform Foundation
 ===
 ## MFP SecureGateway Ionic
-A sample Ionic application with MobileFirst Capabilities which demonstrate getting the data hosted in on-premses environment via HTTP adapted through [Secure Gateway service](https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html)
+A sample Ionic application with MobileFirst Capabilities which demonstrate getting the data hosted in on-premses environment via HTTP adapter through [Secure Gateway service](https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html)
 
 ### Usage
 

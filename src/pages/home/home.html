@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      MFP Secure Gateway - Ionic
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div id="main">
+    <div id="main_title">{{title}}</div>
+    <div id="main_status">{{status}}</div>
+  </div>
+    <div id="button_content">
+        <button id="ping_button" ion-button icon-left outline (click)="getRemoteData()">Get on-premise Data</button>
+    </div>
+  
+</ion-content>

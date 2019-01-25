@@ -7,12 +7,14 @@ import { HomePage } from '../pages/home/home';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AcmeHomePagePage } from "../pages/AcmeHomePage/AcmeHomePage";
+import { AcmeAuthersPagePage } from "../pages/AcmeAuthersPage/AcmeAuthersPage";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage
-  ],
+  ,AcmeHomePagePage,AcmeAuthersPagePage],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
@@ -21,7 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage
-  ],
+  ,AcmeHomePagePage,AcmeAuthersPagePage],
   providers: [
     StatusBar,
     SplashScreen,

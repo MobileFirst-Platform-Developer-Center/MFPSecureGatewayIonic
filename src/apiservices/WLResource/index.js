@@ -109,14 +109,14 @@ WLResource.prototype.invoke = function (context, next) {
                 next();
               },
               (error) => {
-                context.payload = new Error('Error in fetching data :'+ error.status);
+                context.payload = new Error('Error in fetching data : '+ error.errorMsg + ' : ' + error.status);
                 context.payload.status_code = 400;
                 context.interactionType = InvocationContext.INTERACTION_FAULT_TYPE;
                 next();
               }
           );
       }, (error) => {
-          context.payload = new Error('Could not connect to MFP server :'+ error.status);
+          context.payload = new Error('Error accessing MobileFirst platform foundation server : '+ error.errorMsg + ' : ' + error.status);
           context.payload.status_code = 400;
           context.interactionType = InvocationContext.INTERACTION_FAULT_TYPE;
           next();

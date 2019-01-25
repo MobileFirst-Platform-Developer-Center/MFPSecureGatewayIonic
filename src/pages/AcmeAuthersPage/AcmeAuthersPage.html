@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-navbar text-center="">
+      <ion-title>AcmeAuthersPage</ion-title>
+    </ion-navbar>
+  </ion-header>
+<ion-content padding="" text-center="">
+ <div id="main">
+    <div id="main_title">{{title}}</div>
+  </div>
+  <ion-list class="outer-content" >
+    <ion-item *ngFor="let authers of authersList">
+        <h2>{{authers}}</h2>
+    </ion-item>
+  </ion-list>
+</ion-content>

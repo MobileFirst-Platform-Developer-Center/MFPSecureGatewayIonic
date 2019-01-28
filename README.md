@@ -5,7 +5,7 @@ A sample Ionic application with MobileFirst Capabilities which demonstrate getti
 
 ### Usage
 
-1. Use either Maven, MobileFirst CLI or your IDE of choice to build and deploy the available ResourceAdapter, UserLogin        adapters and JavaHTTP Adapter .
+1. Use either Maven, MobileFirst CLI or your IDE of choice to build and deploy the available  UserLogin adapter and JavaHTTP Adapter .
    
    
    The UserAuthentication Security Check adapter can be found in       https://github.com/MobileFirst-Platform-Developer-        Center/SecurityCheckAdapters/tree/release80.
@@ -16,6 +16,7 @@ A sample Ionic application with MobileFirst Capabilities which demonstrate getti
  - `ionic cordova plugin add cordova-plugin-mfp` - to add MFP plugin
  - `ionic cordova platform add` - to add a platform.
  - `mfpdev app register` - to register the application.
+ - `mfpdev app push `- to map the accessRestricted scope to the UserLogin security check
  - `ionic cordova run ios|androoid -- --buildFlag="-UseModernBuildSystem=0"` - to run the application.
 
 3. Run the application in an Android Emulator, iOS Simulator, Browser or physical device. Press the **Get on-premise Data** button to recieve the data from on-premises environment.

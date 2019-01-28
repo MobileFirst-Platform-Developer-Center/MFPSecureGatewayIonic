@@ -19,7 +19,7 @@ A sample Ionic application with MobileFirst Capabilities which demonstrate getti
  - `mfpdev app push `- to map the accessRestricted scope to the UserLogin security check
  - `ionic cordova run ios|androoid -- --buildFlag="-UseModernBuildSystem=0"` - to run the application.
 
-3. Run the application in an Android Emulator, iOS Simulator, Browser or physical device. Press the **Get on-premise Data** button to recieve the data from on-premises environment.
+3. Run the application in an Android Emulator, iOS Simulator, Browser or physical device.Login with a credentials in Login page and press the **Fetch Acme Writers** button to recieve the data from on-premises environment.
 
 ## Node JS HTTP Project
  A sample node js project which creates a HTTP endpoint in on-premises/local environment whith sample data hosted on it.

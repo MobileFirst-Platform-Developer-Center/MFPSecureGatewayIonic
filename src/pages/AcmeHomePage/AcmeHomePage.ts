@@ -33,9 +33,7 @@ export class AcmeHomePagePage {
         });
     
  
-        this.navCtrl.push( HomePage, {
-                data: {"a":"a"}
-              });
+      
            
     }
     securityCheckName = "UserLogin";

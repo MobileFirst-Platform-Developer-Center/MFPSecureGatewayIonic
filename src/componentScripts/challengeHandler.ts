@@ -61,16 +61,5 @@ export default class ChallengeHandler {
                     WL.Logger.error("login onFailure: " + JSON.stringify(response));
                 });
         }
-    }  
-    
-     logout() {
-        WLAuthorizationManager.logout(this.securityCheckName).then(
-            function () {
-                WL.Logger.debug("logout onSuccess");
-                location.reload();
-            },
-            function (response) {
-                WL.Logger.debug("logout onFailure: " + JSON.stringify(response));
-            });
-        }
+    }   
 }

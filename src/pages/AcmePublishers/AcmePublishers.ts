@@ -1,29 +1,27 @@
 import { Component,Renderer,NgZone } from '@angular/core';
 import { NavController,ModalController } from 'ionic-angular';
 import { DataStore } from '../../app/dataStore';
-import { AcmeAuthersPagePage } from "../AcmeAuthersPage/AcmeAuthersPage";
+import { AcmeWritersPage } from "../AcmeWriters/AcmeWriters";
 import { HomePage } from "../home/home";
-import ChallengeHandler from "../../componentScripts/challengeHandler";
 
 @Component({
-  selector: 'page-AcmeHomePage',
-  templateUrl: 'AcmeHomePage.html'
+  selector: 'page-AcmePublishers',
+  templateUrl: 'AcmePublishers.html'
 })
-export class AcmeHomePagePage {
+export class AcmePublishersPage {
 
   constructor(public navCtrl: NavController, public dataStore:DataStore) {
-    
+
   }
-    
- 
-  AcmeHomePage_Button_779_clickHandler() {
-        this.navCtrl.push( AcmeAuthersPagePage, {
+
+    AcmePublishers_Button_4745_clickHandler() {
+        this.navCtrl.push( AcmeWritersPage, {
                 data: {"a":"a"}
               });
     }
 
-    AcmeHomePage_Button_2643_clickHandler() {
-      WLAuthorizationManager.logout(this.securityCheckName).then(
+    AcmePublishers_Button_6135_clickHandler() {
+    WLAuthorizationManager.logout(this.securityCheckName).then(
         function () {
             WL.Logger.debug("logout onSuccess");
             location.reload();
@@ -31,11 +29,7 @@ export class AcmeHomePagePage {
         function (response) {
             WL.Logger.debug("logout onFailure: " + JSON.stringify(response));
         });
-    
- 
-      
-           
+       
     }
     securityCheckName = "UserLogin";
-    
 }

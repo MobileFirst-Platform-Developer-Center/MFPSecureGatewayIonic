@@ -4,6 +4,8 @@ IBM MobileFirst Platform Foundation
 A sample Ionic application with MobileFirst Capabilities which demonstrate getting the data hosted in on-premses environment via HTTP adapter through [Secure Gateway service](https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html)
 
 ### Usage
+2.Use either Maven, MobileFirst CLI or your IDE of choice to build and deploy the available ResourceAdapter and UserLogin adapters.
+The UserAuthentication Security Check adapter can be found in https://github.com/MobileFirst-Platform-Developer-Center/SecurityCheckAdapters/tree/release80.
 
 1. From a command-line window, navigate to the project's root folder and run the commands:
  - `ionic cordova plugin add cordova-plugin-mfp` - to add MFP plugin

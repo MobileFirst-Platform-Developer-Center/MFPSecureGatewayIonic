@@ -9,7 +9,7 @@ A sample Ionic application with MobileFirst Capabilities which demonstrate getti
  - `ionic cordova plugin add cordova-plugin-mfp` - to add MFP plugin
  - `ionic cordova platform add` - to add a platform.
  - `mfpdev app register` - to register the application.
- - `ionic cordova run` - to run the application.
+ - `ionic cordova run ios|androoid -- --buildFlag="-UseModernBuildSystem=0"` - to run the application.
 
 3. Run the application in an Android Emulator, iOS Simulator, Browser or physical device. Press the **Get on-premise Data** button to recieve the data from on-premises environment.
 

@@ -29,7 +29,7 @@
     "cordova-plugin-dialogs": "^2.0.1",
     "cordova-plugin-globalization": "^1.11.0",
     "cordova-plugin-ionic-keyboard": "2.0.5",
-    "cordova-plugin-ionic-webview": "^1.2.0",
+    "cordova-plugin-ionic-webview": "^2.2.3",
     "cordova-plugin-mfp": "8.0.2018090313",
     "cordova-plugin-okhttp": "^2.0.0",
     "cordova-plugin-splashscreen": "5.0.2",
